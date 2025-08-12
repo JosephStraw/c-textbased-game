@@ -11,7 +11,7 @@ int main() {
 
         int choice;
 
-    while(gameLoop = true) {
+    while(gameLoop == true) {
         menuDisplay();
         choice = menuChoice();
 
