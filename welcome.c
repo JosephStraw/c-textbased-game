@@ -16,6 +16,7 @@ void menuDisplay() {
     printf("Where would you like to go?\n");
     printf("1. The mine\n");
     printf("2. The uprgrade shack\n");
+    printf("3. Exit\n");
 
     printf("\n:> ");
     //scanf();
@@ -25,7 +26,7 @@ int menuChoice() {
     int choice = 0;
     scanf("%d", &choice);
     while(getchar() != '\n');
-        if(choice < 1 || choice > 2) {
+        if(choice < 1 || choice > 3) {
             printf("Invalid, please try again.\n");
         }
     

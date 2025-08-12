@@ -20,8 +20,10 @@ int main() {
                 theMine();
                 break;
             case 2:
-                printf("Gamering2\n");
+                theUpgradeShack();
                 break;
+            case 3:
+                return 0;
         }
     }
     return 0;

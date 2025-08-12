@@ -2,5 +2,6 @@
 #define LOCATIONS_H
 
 void theMine();
+void theUpgradeShack();
 
 #endif
